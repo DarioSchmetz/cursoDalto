@@ -1,0 +1,20 @@
+body {
+
+background:linear-gradient(to left,#ededed ,#000);
+margin: 0;
+
+}
+
+img {
+
+    
+    width: 300px;
+   padding: 20px;
+
+   filter: drop-shadow(0 0 5px rgb(160, 136, 255));
+   border-radius: 1px solid #ededed;
+margin: auto;   
+}
+div {
+    margin:auto;
+}

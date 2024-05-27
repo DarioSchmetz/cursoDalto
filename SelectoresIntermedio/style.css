@@ -1,0 +1,18 @@
+
+/* Selector por atributo */
+img[src="descarga.jpg"] {
+    width: 100%;
+}
+/* selector por hijo directo */
+li > em{
+
+    color: red;
+}
+/* Selector adyacente solo cambia un color despues del h1 */
+h1+p {
+    color: blue;
+}
+/* selector hermano generales  es decir cambia el color de todo los p despues del h1*/
+h1 ~ p {
+    color: blue;
+}

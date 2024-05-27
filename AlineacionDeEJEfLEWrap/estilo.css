@@ -1,0 +1,47 @@
+ body {
+
+    margin: 0;
+    font-family: sans-serif;
+}div,body {
+
+    box-sizing: border-box;
+}
+.flebox {
+
+    display: flex;
+   flex-flow:row wrap;
+   border: 2px solid #000e;
+    margin: 20px;
+    /* star al principio, end al final,center centrado
+     betwen en line primero al princpio luego al final,
+     betwen around en espacio pero no exacto , space evely respeta todo los espacio*/
+    justify-content: space-evenly;
+    /* // recomienda para una linea */
+    align-items: stretch;
+    /* recomienda para varias linea */
+    /* align-content: stretch; */
+    height: 360px;
+}
+.flexbox_item {
+    width: 100px;
+    color: #fff;  
+    direction: rtl;  
+    background-color: #800;
+text-align: center;
+
+
+font-size: 40px;
+
+
+}
+
+
+
+.flexbox_item:last-child {
+
+    background-color: #000e;
+     /* puede alinear los item de manera particular */
+    align-self: end;
+    ;
+
+}

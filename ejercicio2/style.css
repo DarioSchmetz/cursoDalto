@@ -1,0 +1,63 @@
+body {
+
+
+    background-color: #fff;
+     font-family: sans-serif;
+    color: white;
+
+}
+.card {
+
+    background: #6ac;
+    text-align: center;
+    margin-top: 20PX;
+    width: 300px;
+    padding: 20px 10px;
+    margin-top: 50px;
+margin:auto;
+box-shadow:  0px 0px 35px #0006;
+border-radius: 8px;
+margin-bottom: 20px;
+/* display: inline-block;
+margin: 44px; */
+
+
+}
+.card_morado{
+
+    background-color: #ca6;
+}
+.card_green
+{
+
+    background-color: #5b7;
+    margin-bottom: 20px;
+}
+.card_title{
+padding: 10px 0 0 0;
+font-size: 22px;
+}
+
+
+.card_descripcion {
+font-size: 14 px;
+font-weight: 100;
+letter-spacing: 2px;
+margin:0;
+margin-top: 5px;
+}
+.card_conten{
+    font-size: 9px;
+
+    padding: 10pxpx;
+    padding-bottom: 0;
+    text-align: justify;
+    margin-bottom:0;
+
+
+}
+.card_img {
+    width: 200px;
+    border-radius:50%;
+    
+    }

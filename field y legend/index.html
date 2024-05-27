@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Label</title>
+    <link rel="stylesheet" href="estilofield.css">
+</head>
+<body>
+  
+    <form action="">
+<h2>Formulario de contacto</h2>      
+<fieldset> 
+    <legend>informacion de basica</legend>
+
+ <div class="input_form">
+  
+
+    <label for="nombre">Nombre Completo
+            <input type="text" placeholder="Juan Marquez" id="nombre">
+        </div>
+         <div class="input_form">
+            <Label for="email"> Email</Label>
+
+            <input type="email" placeholder="Juan@gmail.com" id="email">
+        </div>
+        <div class="input_form">
+           <label id="asunto">Asunto
+            <input type="text" placeholder="Asunto del mensaje" id="asunto">
+        </label>
+        </div>
+    </fieldset>
+
+    
+</div>
+</label>
+
+<div class="input_form">
+
+<label for="select">     tipo usuario
+
+    <select name="type-of-user" id="select">
+        <option value="user 1">seguidor</option>   
+        <option value="user 2">empresa</option>  
+        <option value="user 3"> otro</option> 
+    </label>
+
+
+    </select>
+</div>
+<div class="input_form">
+
+    <label for="select">     referente
+    <input list="referente">
+        <datalist name="type-of-user" id="referente">
+            <option value="un amigo">me lo recomendo un amigo</option>   
+            <option value="empresa">empresa de de grupo i</option>  
+            <option value="soy dalto"> un creador de contenido</option> 
+        </label>
+    
+    
+        </select>
+    </div>
+        <div class="input_form">
+            <label for="mensaje">Mensaje</label>
+
+<textarea name="mensaje" rows="10" id="mensaje" placeholder="deja tu mensaje"></textarea>        </div>
+<div class="input_form">
+
+<label for="checkbox">Acepto termino y condiciones</label>
+        <input type="checkbox" class="checkbox" id="checkbox">
+        </div>
+    </form>
+</body>
+</html>

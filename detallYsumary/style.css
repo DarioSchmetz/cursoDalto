@@ -1,0 +1,30 @@
+
+body {
+    background-color: #333;
+    color: #eee;
+    font-family: sans-serif;
+}
+.estilo {
+padding :10px;
+
+}
+details {
+
+    background-color:transparent;
+    border-bottom: none;
+    border: 1PX solid #eee;
+    font-weight: bold;
+    padding: 9px;
+    font-size: 0.7em };
+
+
+summary {
+    background-color:transparent;
+    border-bottom: 1px solid
+     #ddd;
+    font-size:1em;
+}
+
+ul {
+ font-weight: 100%;
+}

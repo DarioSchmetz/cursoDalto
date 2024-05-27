@@ -1,0 +1,40 @@
+
+
+body {
+    font-family: MONTSERRAT;
+    margin: auto;
+    background-color: #ccc;
+    height: 200vh;
+}
+* {
+    box-sizing: border-box;
+}
+.crecedor {
+height: 100vh;
+
+}
+.box {
+    view-timeline: --cajita block;
+    background-color: #48e;
+    padding: 20px;
+    animation: llenar;
+    animation-timeline: --cajita;
+    animation-timing-function: linear;
+}
+.container { 
+
+
+
+}
+@keyframes llenar {
+    from {
+        width: 0%;
+        background-color: #48e;
+    }
+    
+
+to{
+    width:100%;
+    background-color: #f33;
+}
+}

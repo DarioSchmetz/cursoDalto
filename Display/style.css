@@ -1,0 +1,61 @@
+
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+nav {
+    background-color: #48e;
+}
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+.nav__item {
+display: inline-block;
+}
+.nav__link {
+
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+background-color: #48e;
+    
+}
+.nav__link:hover {
+    background-color: red;
+}
+.link--button:hover{
+   background-color: transparent;
+   color: #fff; 
+}
+.link--button {
+    border: #48e;
+    background-color:#fff;
+    padding: 4px;
+    color: #48e;
+padding:6px 12px;
+border-radius: 10px;
+margin-left: 60px;
+}
+/* div {
+
+    padding: 20px;
+    background-color: #999;
+}
+a {
+    color: red;
+    /* hace que los elemento en linea sea en bloque */
+/*  
+p {
+background-color: #000;
+color: #fff;
+/* hace que lo elementos en bloque
+hace en linea */
+/* display: inline;
+margin: 5px;
+padding: 20px;
+
+}  */ 

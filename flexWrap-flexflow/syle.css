@@ -1,0 +1,36 @@
+body {
+
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+.flebox {
+
+    display: flex;
+   flex-flow:row wrap;
+    height: 100vh;
+    
+}
+.flexbox_item {
+    width: 150px;
+    color: #fff;    
+    background-color: red;
+margin: 10px;
+text-align: center;
+
+
+font-size: 40px;
+
+
+}
+
+
+.flexbox_item:first-child{
+background-color: #d56;
+
+}
+.flexbox_item:last-child {
+
+    background-color: #000e
+    ;
+}

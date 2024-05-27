@@ -1,0 +1,44 @@
+body {
+
+    margin: auto;
+    font-family: sans-serif;
+}
+div,body {
+
+    box-sizing: border-box;
+
+}
+
+.grid {
+
+    display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-auto-rows:1fr;
+    grid-auto-flow: dense;
+    grid-auto-columns: 1fr;
+    margin-top: 30px;
+    gap:20px;padding: 10px;
+    min-height: 100vh;
+
+   
+}
+.grid-item{
+    background-color: #48e;
+    font-size: 30px;
+    max-width: 100%;
+    background-image: url(programacionDario.jpg);
+  box-sizing: border-box; background-size: cover;
+  background-position: center;
+ 
+}
+.grid-item:nth-child(10) {
+
+    grid-column: span 2;
+    grid-row: span 2;
+}
+@media screen and(max-width:500px) {
+ .grid {
+
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+}   
+}

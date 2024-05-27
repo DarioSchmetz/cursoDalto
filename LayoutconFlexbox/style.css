@@ -1,0 +1,131 @@
+body{
+    margin: auto;
+    font-family: sans-serif;
+    background-color: #eeee;
+    box-sizing: border-box;
+    background-color:#f80 ;
+    color: #ffff;
+}
+
+
+/* header section */
+.header__overlay {
+
+    min-height: 100vh;
+    width: 100%;
+    background-color: #0006;
+    position: absolute;
+    z-index:1;
+    background-size: auto;
+}
+.header__img {
+ min-width: 200px;
+ max-width: 40%;
+ border-radius: 50%;
+ margin: 20px;
+ border: 10px solid #fff;
+}
+.header__container {
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+
+}
+.header__container p {
+    text-wrap: pretty;
+}
+
+.header {
+min-height: 100vh;
+box-sizing: border-box;
+background-image: url(fondo.jpg);
+background-repeat: no-repeat;
+background-size:cover ;
+
+display: flex;
+
+
+}
+h1 {
+    margin: 0;
+    font-size: 3.6rem;
+    text-wrap: balance;
+}
+/* nav section */
+.nav {
+
+background-color: #fff;
+display: flex;
+justify-content: center;
+padding:6px 20px;
+margin: 2px;
+flex-wrap: wrap;
+position: sticky;
+top:0;
+margin-bottom: 10px;
+box-shadow: 0 0 25px #000e;
+
+}
+.nav__ul {
+
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+.nav__item {
+list-style: none;
+}
+
+.nav__link {
+
+    color: #f80;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 0;
+    transition:  background-color
+    0.3s, border-radius 0.2s  outline 0.3s, outline-offset 0.3;
+
+}
+.link--login{
+    background-color: #f80;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 24px;
+    margin-left: 6px;
+    color: #000;
+}
+.link--login:hover {
+    background-color: #f80c;
+    outline: none;
+}
+.nav__link:hover {
+    background-color: #f803;
+    border-radius: 20px;
+    outline: 2px solid #f809 ;
+    outline-offset: -8px;
+}
+.nav__logo{
+
+width:50px
+
+;}
+.logo__container {
+    flex-grow: 1;
+text-align: center;
+}
+.nav_flexitem {
+    flex-grow: 4;
+}
+
+main {
+
+    max-width: 800px;
+    margin: auto;
+    font-size: 30px;
+    text-wrap: pretty;
+}

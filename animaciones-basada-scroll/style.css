@@ -1,0 +1,61 @@
+
+
+    body {
+        font-family: MONTSERRAT;
+        margin: auto;
+        background-color: #ccc;
+        height: 200vh;
+    }
+    * {
+        box-sizing: border-box;
+    }
+
+
+    .box {
+
+
+    
+    background-color: #fff;
+    border: 4px, solid #48e;
+    padding: 6px;
+    border-radius: 39px;
+    transition: border 1s;
+    position: fixed;
+    width: 100%;
+
+    }
+    .crecedor {
+        height: 20vh
+    }
+    .container {
+        scroll-timeline:--containerScroll;;
+        overflow-y: scroll;
+        height: 16vh;
+
+    }
+    .barra {
+        padding: 40px;
+        background-color: #48e;
+        border-radius: 30px;
+        width: 10%;
+        animation-name: llenar;
+        animation-fill-mode: both;
+        animation-timing-function: linear;
+        /* // caso muy puntuales, sino se utiliza el Scroll */
+        animation-timeline: --containerScroll;animation-duration: 6s;
+    }
+    .barra:active {
+        animation-play-state: paused;
+    }
+    @keyframes llenar {
+        from {
+            width: 0%;
+            background-color: #48e;
+        }
+        
+
+    to{
+        width:100%;
+        background-color: #f33;
+    }
+    }

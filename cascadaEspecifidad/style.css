@@ -1,0 +1,16 @@
+/* La especifidad va en orden, es decir, [0,1,1]. El primero es mas 
+importante, el tercero son la 
+etiquetada el segundo class
+el tercero id, luego sigue <style>
+y luego style, y el mas imporante
+es !important */
+
+h1 {
+    color: blue!important ;
+}
+.titulo {
+    color: red !important;}
+    #titulo {
+        color:green !important;
+    }
+

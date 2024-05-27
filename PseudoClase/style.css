@@ -1,0 +1,59 @@
+h1 {
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+/* cuando pasamo el mouse encima h1 */
+h1:hover {
+
+  color: #000  ;
+  background-color: #ccc;
+}
+/* mientra este clickleado */
+h1:active {
+    background-color: #999;
+    color:#fff
+}
+/* selecinamos el primero */
+
+ul {
+    background-color: #999;
+    padding: 0;
+}
+li:first-child {
+
+    color:#f00;
+}
+/* selecinamos el ultimo */
+
+
+li:last-child{
+    color: #00f;
+
+}
+
+/* seleciona el  li que le indiquemos
+por indice , tambien puede ser los salto de linea*/
+li:nth-child(3n){
+    color: #0f0;
+
+}
+
+.lista li:not(.excluir) {
+    color: #f00;
+}
+
+/* input[type="checkbox" ] {
+    margin:  50px;}
+
+
+    input[type="checkbox" ]:checked {
+    margin: 0;
+    } */
+
+    /* enlace no visitado */
+    a:link {
+        color: #f00;
+    }a:visited {
+        color:#0f0;
+    }

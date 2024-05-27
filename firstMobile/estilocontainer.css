@@ -1,0 +1,19 @@
+body {
+    margin: auto;font-family: sans-serif;
+}
+
+.container {
+
+
+    container-type: inline-size;
+container-name: main;
+}
+p {
+    font-size: 8px;
+} @container main(max-width:600px) {
+p {
+    font-size: 20px;
+    background-color: #f00;
+}
+
+}
